@@ -30,6 +30,10 @@ namespace SphinxDataGenerator
                     .Replace(".dll", ".xml").Replace(".exe", ".xml");
                 if (File.Exists(asm.FullName) && File.Exists(docFile))
                 {
+                    if (asm.Name.StartsWith("System.") || asm.Name.StartsWith("Microsoft.") || asm.Name.StartsWith("mscorlib"))
+                    {
+                        continue;
+                    }
                     toProcess.Add(new DocumentationToProcess(
                         asm.FullName,
                         docFile,
