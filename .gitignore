@@ -1,0 +1,6 @@
+*.sln
+*.csproj
+*.speccache
+*.user*
+bin/
+obj/

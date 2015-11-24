@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="SphinxDataGenerator" Path="SphinxDataGenerator" Type="Console" Platforms="Linux,MacOS,Windows" PostBuildHook="True">
+  <Properties>
+    <PostBuildHookExcludes>
+      <Project Name="SphinxDocAttribute" />
+    </PostBuildHookExcludes>
+  </Properties>
+  <References>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SphinxDocAttribute" />
+  </References>
+  <Files>
+    <Compile Include="DocumentationToProcess.cs" />
+    <Compile Include="Program.cs" />
+  </Files>
+</Project>

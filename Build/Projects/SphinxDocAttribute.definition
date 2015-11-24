@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="SphinxDocAttribute" Path="SphinxDocAttribute" Type="Library">
+  <References />
+  <Files>
+    <Compile Include="SupportsDocumentationModulesAttribute.cs" />
+  </Files>
+</Project>

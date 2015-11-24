@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="SphinxExample" Path="SphinxExample" Type="Library">
+  <References>
+    <Reference Include="SphinxDocAttribute" />
+  </References>
+  <Files>
+    <Compile Include="DefaultDependencyClass.cs" />
+    <Compile Include="ExampleClassA.cs" />
+    <Compile Include="IDependencyInterface.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </Files>
+</Project>

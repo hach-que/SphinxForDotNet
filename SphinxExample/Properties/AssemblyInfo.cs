@@ -1,0 +1,3 @@
+﻿using SphinxDocAttribute;
+
+[assembly: SupportsDocumentationModules]
