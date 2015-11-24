@@ -5,5 +5,8 @@
     <Reference Include="System.Core" />
   </References>
   <Files>
+    <Compile Include="Program.cs" />
+    <EmbeddedResource Include="Resources\_ext\netxml.py" />
+    <EmbeddedResource Include="Resources\autobuild.sh" />
   </Files>
 </Project>
